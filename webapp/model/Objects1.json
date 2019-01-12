@@ -1,0 +1,24 @@
+{
+"Objects":[
+{
+"Productname": "Chocolate",
+"Productid":"123",
+"Quality":"good",
+"Weight":"100Grms"
+},
+
+{
+"Productname": "IceCream",
+"Productid":"567",
+"Quality":"good",
+"Weight":"200Grms"
+},
+
+{
+"Productname": "Chips",
+"Productid":"789",
+"Quality":"VeryGood",
+"Weight":"300Grms"
+}
+]
+}

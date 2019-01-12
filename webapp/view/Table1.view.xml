@@ -1,0 +1,34 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="TablePlusNav1.controller.Table1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App id="app1">
+		<pages>
+			<Page title="Title">
+				<content>
+					<Table id="Table1ID" items="{path:'/Objects'}">
+						<columns>
+							<Column width="11rem">
+								<Label text="Product Name"></Label>
+							</Column>
+							<Column width="11rem">
+								<Label text="Product ID"></Label>
+							</Column>
+							<Column width="11rem">
+								<Label text="Quality"></Label>
+							</Column>
+							<Column width="11rem">
+								<Label text="Weight"></Label>
+							</Column>
+						</columns>
+						<ColumnListItem>
+							<Text text="{Productname}"></Text>
+							<Text text="{Productid}"></Text>
+							<Text text="{Quality}"></Text>
+							<Text text="{Weight}"></Text>
+						</ColumnListItem>
+					</Table>
+					<Button text="Click here" press="onPress" type="Navigation"></Button>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
